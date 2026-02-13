@@ -7,6 +7,8 @@ function App() {
       <div>
         <p data-cy="descripcion">Celebrando con la gente de Tester Engineer</p>
       </div>
+      <hr />
+      <p>Otro parrafo</p>
     </>
   );
 }
