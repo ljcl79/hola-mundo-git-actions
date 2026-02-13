@@ -2,6 +2,7 @@ describe('Validando aplicación Hola Mundo', () => {
 
     beforeEach(() => {
         cy.visit('/');
+        cy.wait(4000);
     })
 
     it('Verificando título de Hola Mundo', () => {
